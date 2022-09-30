@@ -32,4 +32,4 @@ If you don't want to be listed as reviewers for a project, but are interested in
 
 - Add the project [PR Review Club](https://github.com/orgs/nervosnetwork/projects/28) to the repository. ([See How →](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository))
 - Add the inintial reviewers list to this repository.
-- If you want to add new PRs to the club automatically, refer to [this reference →](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository).
+- If you want to add new PRs to the club automatically, refer to [this reference →](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions).
