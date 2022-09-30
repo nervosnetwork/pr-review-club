@@ -1,11 +1,69 @@
 {
   "pr-review-club": {
     "owners": ["doitian", "quake"],
-    "watchers": []    
+    "watchers": []
+  },
+
+  "rfcs": {
+    "owners": [
+      "doitian",
+      "zhangsoledad",
+      "quake",
+      "janx",
+      "jordanmack",
+      "XuJiandong"
+    ],
+    "watchers": []
   },
 
   "ckb": {
-    "owners": ["doitian", "zhangsoledad", "quake", "yangby-cryptape"],
+    "owners": [
+      "doitian",
+      "zhangsoledad",
+      "quake",
+      "yangby-cryptape",
+      "driftluo"
+    ],
+    "watchers": []
+  },
+  "ckb-cli": {
+    "owners": [
+      "doitian",
+      "zhangsoledad",
+      "quake",
+      "yangby-cryptape",
+      "driftluo"
+    ],
+    "watchers": []
+  },
+  "ckb-indexer": {
+    "owners": [
+      "doitian",
+      "zhangsoledad",
+      "quake",
+      "yangby-cryptape",
+      "driftluo"
+    ],
+    "watchers": []
+  },
+  "tentacle": {
+    "owners": [
+      "doitian",
+      "zhangsoledad",
+      "quake",
+      "yangby-cryptape",
+      "driftluo"
+    ],
+    "watchers": []
+  },
+  "molecule": {
+    "owners": [
+      "doitian",
+      "zhangsoledad",
+      "quake",
+      "yangby-cryptape",
+      "driftluo"
+    ],
     "watchers": []
   }
 }
