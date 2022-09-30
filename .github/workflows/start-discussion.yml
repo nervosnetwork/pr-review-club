@@ -2,7 +2,8 @@ name: Start Discussion
 
 on:
   schedule:
-    - cron: '30 0 * * 1'
+    # 3AM UTC on Wednsday
+    - cron: '0 3 * * 3'
   workflow_dispatch: {}
 
 jobs:
