@@ -164,7 +164,7 @@ puts "> Owners/Watchers Format: 〔assignee1, assignee2 | candidate1, candidate2
 puts "> Candidates list are randomly shuffled"
 puts ""
 
-puts "There #{prs.size == 1 ? 'are' : 'is'} #{pluralize(prs.size, 'PR', 'PRs')} awaiting review:\n\n"
+puts "There #{prs.size == 1 ? 'is' : 'are'} #{pluralize(prs.size, 'PR', 'PRs')} awaiting review:\n\n"
 
 club_owners = candidates["pr-review-club"]["owners"].shuffle
 slice_size = (prs.size + club_owners.size - 1) / club_owners.size
