@@ -25,8 +25,9 @@ If you don't want to be listed as reviewers for a project, but are interested in
 
 ### For Club Maintainers
 
-- Notify review candidates of PRs in the `🆕 New` column on Wednsday 3AM UTC.
-- Create a discussion thread to discuss the reviewers assignment from Thusday 3AM UTC to Friday 3AM UTC.
+- Notify review candidates of PRs in the `🆕 New` column on Wednsday 3AM UTC by creating a discussion thread.
+    - The GitHub Action [Start Discussion](https://github.com/nervosnetwork/pr-review-club/actions/workflows/start-discussion.yml) will create the discussion thread on Wednsday. It is also possible to manually trigger the workflow.
+- Discuss the reviewers assignment in the thread from Thusday 3AM UTC to Friday 3AM UTC.
 
 ### For Repository Maintainers
 
