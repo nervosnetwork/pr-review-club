@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  pr-summary:
+  start-discussion:
     runs-on: ubuntu-latest
 
     steps:
