@@ -126,6 +126,7 @@ def owners_bar(pr, candidates)
     node.requested_reviewer&.login
   end.compact.uniq
   pr_candidates = (candidates.fetch(pr.repository.name, {}).fetch('owners', []) - assigned).shuffle
+  pr_candidates.delete(pr.author.login)
 
   assigned_display = assigned.map{|u| "@#{u}"}.join(", ")
   candidates_display = pr_candidates.map{|u| "@#{u}"}.join(", ")
@@ -143,6 +144,7 @@ def watchers_bar(pr, candidates)
   assigned -= owners
 
   pr_candidates = (candidates.fetch(pr.repository.name, {}).fetch('watchers', []) - assigned).shuffle
+  pr_candidates.delete(pr.author.login)
 
   assigned_display = assigned.map{|u| "@#{u}"}.join(", ")
   candidates_display = pr_candidates.map{|u| "@#{u}"}.join(", ")
